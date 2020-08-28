@@ -6,7 +6,7 @@
 
 const newServer = require('./newServer')
 const hostname = 'some-server.com'
-const port = 8080
+var port = 8080;
 
 newServer().listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`)
