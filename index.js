@@ -4,9 +4,9 @@
 
 'use strict'
 
-var http = require('http')
-var hostname = 'some-server.com'
-var port = 8080
+const http = require('http')
+const hostname = 'some-server.com'
+const port = 8080
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200
